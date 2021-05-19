@@ -1,6 +1,7 @@
 # PencilSketch
 Convert an image into pencil sketch using python
-Files : 
+
+ 
 1. PencilSketch.py -> python code to convert image to pencil sketch 
 2. golden_trio.jpg -> input image to be converted
 3. output.png      -> Only the input image and the output pencil sketch
