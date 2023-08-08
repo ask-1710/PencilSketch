@@ -1,13 +1,24 @@
 # PencilSketch
-Convert an image into pencil sketch using python
 
- 
-1. PencilSketch.py -> python code to convert image to pencil sketch 
-2. golden_trio.jpg -> input image to be converted
-3. output.png      -> Only the input image and the output pencil sketch
-4. StagesOfConversion.png -> Highlights the order of conversion of the image to grayscale, inverting the image, smoothing the image and finally obtaining the final sketch using a blend function dodgev2
+Convert your images into captivating pencil sketches using Python.
 
-Packages to be installed : opencv-python
+## Files
 
-This project is a great start if you a new to opencv. 
-Play around by commenting the intermediate stages and look at the variation in the pencil sketch output. You will see the role of every step in the project.
+1. **PencilSketch.py**: Python code to convert an image to a pencil sketch.
+2. **golden_trio.jpg**: Sample input image to be transformed.
+3. **output.png**: A visual representation showcasing both the input image and the resulting pencil sketch.
+4. **StagesOfConversion.png**: Illustrates the sequential transformation process, including grayscale conversion, image inversion, smoothing, and the final sketch achieved through a blend function (dodgev2).
+
+## How It Works
+
+The process involves the following steps:
+1. Convert the image to grayscale.
+2. Invert the grayscale image.
+3. Apply smoothing techniques.
+4. Employ a blend function (dodgev2) to achieve the pencil sketch effect.
+
+## Usage
+
+Ensure you have the **opencv-python** package installed:
+```bash
+pip install opencv-python
